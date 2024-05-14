@@ -71,7 +71,7 @@ fn tracing_init(args: &Args) {
     let env_filter = EnvFilter::builder()
         .with_default_directive(
             match args.verbose {
-                0 => "reliquary_archiver=info",
+                0 => "completionist_archiver=info",
                 1 => "info",
                 2 => "debug",
                 _ => "trace",
