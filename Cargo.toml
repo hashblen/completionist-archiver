@@ -1,12 +1,12 @@
 [package]
-name = "reliquary-archiver"
+name = "completionist-archiver"
 version = "0.1.6"
 edition = "2021"
 license = "MIT"
-repository = "https://github.com/IceDynamix/reliquary-archiver"
+repository = "https://github.com/hashblen/completionist-archiver"
 publish = false
 readme = "README.md"
-homepage = "https://github.com/IceDynamix/reliquary-archiver"
+homepage = "https://github.com/hashblen/completionist-archiver"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

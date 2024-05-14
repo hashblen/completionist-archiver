@@ -199,6 +199,22 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "acbf1af155f9b9ef647e42cdc158db4b64a1b61f743629225fde6f3e0be2a7c7"
 
 [[package]]
+name = "completionist-archiver"
+version = "0.1.6"
+dependencies = [
+ "base64",
+ "clap",
+ "color-eyre",
+ "pcap",
+ "reliquary",
+ "serde",
+ "serde_json",
+ "tracing",
+ "tracing-subscriber",
+ "ureq",
+]
+
+[[package]]
 name = "crc32fast"
 version = "1.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -555,22 +571,6 @@ dependencies = [
  "serde",
  "serde_json",
  "tracing",
-]
-
-[[package]]
-name = "reliquary-archiver"
-version = "0.1.6"
-dependencies = [
- "base64",
- "clap",
- "color-eyre",
- "pcap",
- "reliquary",
- "serde",
- "serde_json",
- "tracing",
- "tracing-subscriber",
- "ureq",
 ]
 
 [[package]]

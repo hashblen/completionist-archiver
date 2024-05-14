@@ -10,8 +10,8 @@ use reliquary::network::gen::command_id::{PlayerLoginFinishScRsp, PlayerLoginScR
 use tracing::{debug, error, info, instrument, trace, warn};
 use tracing_subscriber::{EnvFilter, Layer, prelude::*, Registry};
 
-use reliquary_archiver::export::Exporter;
-use reliquary_archiver::export::fribbels::{Database, OptimizerExporter};
+use completionist_archiver::export::Exporter;
+use completionist_archiver::export::fribbels::{Database, OptimizerExporter};
 
 const PACKET_FILTER: &str = "udp portrange 23301-23302";
 

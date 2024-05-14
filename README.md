@@ -1,6 +1,8 @@
 # reliquary-archiver
 
-_tool to create a relic export from network packets of a certain turn-based anime game_
+_tool to create a achievements and books export from network packets of a certain turn-based anime game_
+
+### Based on [IceDynamix/reliquary-archiver](https://github.com/IceDynamix/reliquary-archiver)
 
 json output format is based on the format of [HSR-Scanner](https://github.com/kel-z/HSR-Scanner)
 
